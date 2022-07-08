@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Header from "../components/Header";
 
 const Image = styled.img`
+  position: relative;
   height: 996px;
   width: 923px;
 `;
@@ -104,7 +105,7 @@ const Home = () => {
     <Container>
       <div>
         <Header />
-        <Image src={require("../assets/chess.png")}></Image>
+        <Image src={require("../assets/chess.png")} alt={"Chess Board"}></Image>
       </div>
       <div>
         <TextFirstLine>Chess says</TextFirstLine>
