@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Header from "../components/Header";
 
@@ -86,16 +87,19 @@ const Button = styled.button`
 
 const BtnText = styled.div`
   posiyion: fixed;
+  width: 107px;
+  height: 27px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
   color: #ffffff;
 `;
 
 const Icon = styled.img`
+  padding-top: 2px;
   width: 24px;
   height: 24px;
 `;
@@ -111,10 +115,12 @@ const Home = () => {
         <TextFirstLine>Chess says</TextFirstLine>
         <TextSecondLine>Who we are</TextSecondLine>
         <SmallFontText>A lot about</SmallFontText>
-        <Button>
-          <BtnText>Get Started</BtnText>
-          <Icon src={require("../assets/arrow.png")}></Icon>
-        </Button>
+        <Link to="/register">
+          <Button>
+            <BtnText>Get Started</BtnText>
+            <Icon src={require("../assets/arrow.png")}></Icon>
+          </Button>
+        </Link>
       </div>
     </Container>
   );
