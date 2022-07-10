@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/redberry_chess_club/static/js/main.f4d37afe.js",
+    "static/js/787.0974b14d.chunk.js": "/redberry_chess_club/static/js/787.0974b14d.chunk.js",
+    "static/media/chessFigures.png": "/redberry_chess_club/static/media/chessFigures.38cbbcdd23e0d1d3f48f.png",
+    "static/media/chess.png": "/redberry_chess_club/static/media/chess.ae3dca8fc4d3282bd75a.png",
+    "static/media/king.png": "/redberry_chess_club/static/media/king.262586571c5674e87c1d.png",
+    "index.html": "/redberry_chess_club/index.html",
+    "main.f4d37afe.js.map": "/redberry_chess_club/static/js/main.f4d37afe.js.map",
+    "787.0974b14d.chunk.js.map": "/redberry_chess_club/static/js/787.0974b14d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f4d37afe.js"
+  ]
+}
